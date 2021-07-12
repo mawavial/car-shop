@@ -1,6 +1,6 @@
 ## Introduction
 
-Car online store PoC
+Online store PoC
 
 
 ## How to run

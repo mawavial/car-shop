@@ -1,7 +1,7 @@
-import React from "react";
-import { hot } from "react-hot-loader";
-import TodoList from "./todos/TodoList";
-import styled from "styled-components";
+import React from 'react';
+import { hot } from 'react-hot-loader';
+import styled from 'styled-components';
+import FirstPage from './pages/firstPage';
 
 const AppContainer = styled.div`
   font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +14,7 @@ const AppContainer = styled.div`
 
 const App = () => (
   <AppContainer>
-    <TodoList />
+    <FirstPage />
   </AppContainer>
 );
 
